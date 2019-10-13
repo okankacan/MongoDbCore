@@ -1,0 +1,10 @@
+C:\Users\lenovo\source\repos\MongoDbExample\MongoDbExample.Business\bin\Debug\netcoreapp2.2\MongoDbExample.Business.deps.json
+C:\Users\lenovo\source\repos\MongoDbExample\MongoDbExample.Business\bin\Debug\netcoreapp2.2\MongoDbExample.Business.runtimeconfig.json
+C:\Users\lenovo\source\repos\MongoDbExample\MongoDbExample.Business\bin\Debug\netcoreapp2.2\MongoDbExample.Business.runtimeconfig.dev.json
+C:\Users\lenovo\source\repos\MongoDbExample\MongoDbExample.Business\bin\Debug\netcoreapp2.2\MongoDbExample.Business.dll
+C:\Users\lenovo\source\repos\MongoDbExample\MongoDbExample.Business\bin\Debug\netcoreapp2.2\MongoDbExample.Business.pdb
+C:\Users\lenovo\source\repos\MongoDbExample\MongoDbExample.Business\obj\Debug\netcoreapp2.2\MongoDbExample.Business.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\MongoDbExample\MongoDbExample.Business\obj\Debug\netcoreapp2.2\MongoDbExample.Business.AssemblyInfoInputs.cache
+C:\Users\lenovo\source\repos\MongoDbExample\MongoDbExample.Business\obj\Debug\netcoreapp2.2\MongoDbExample.Business.AssemblyInfo.cs
+C:\Users\lenovo\source\repos\MongoDbExample\MongoDbExample.Business\obj\Debug\netcoreapp2.2\MongoDbExample.Business.dll
+C:\Users\lenovo\source\repos\MongoDbExample\MongoDbExample.Business\obj\Debug\netcoreapp2.2\MongoDbExample.Business.pdb

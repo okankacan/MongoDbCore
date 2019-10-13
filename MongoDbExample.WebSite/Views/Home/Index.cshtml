@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model MongoDbExample.WebSite.Models.ResponseUsersModel
+<div class="row">
+    <div class="col-md-3">
+        <form asp-controller="Home" asp-action="Index" method="post">
+            <div class="form-group">
+                <input asp-for="user.Name" class="form-control" placeholder="Name" />
+
+            </div>
+            <div class="form-group">
+                <input asp-for="user.Surname" class="form-control" placeholder="SurName" />
+
+            </div>
+            <div class="form-group">
+                <input asp-for="user.Email" class="form-control" type="email" placeholder="email" />
+
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-success">Gönder</button>
+            </div>
+        </form>
+    </div>
+    <div class="col-md-9">
+        @if (Model.users != null)
+        {
+            <div class="row">
+                <div class="col-md-3">Id</div>
+                <div class="col-md-2">Name</div>
+                <div class="col-md-2">Surname</div>
+                <div class="col-md-3">Email</div>
+                <div class="col-md-2">
+                </div>
+
+                &nbsp;
+            </div>
+            foreach (var item in Model.users)
+            {
+                <div class="row">
+                    <div class="col-md-3">@item.Id</div>
+                    <div class="col-md-1">@item.Name</div>
+                    <div class="col-md-1">@item.Surname</div>
+                    <div class="col-md-3">@item.Email</div>
+                    <div class="col-md-4">
+                        <a href="Home/Edit/@item.Id" class="btn btn-success">edit</a>
+                        <a href="Home/Delete/@item.Id" class="btn btn-danger">delete</a>
+                    </div>
+                </div>
+
+            }
+        }
+    </div>
+</div>
+
+
